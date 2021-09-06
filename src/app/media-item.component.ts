@@ -8,4 +8,9 @@ import { Component } from "@angular/core";
     ]
 })
 
-export class MediaItemComponent {}
+export class MediaItemComponent {
+    name = "WhatsApp";
+    wasWatched(){
+        return true;
+    }
+}
