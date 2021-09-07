@@ -1,2 +1,9 @@
-<h1 class="ID">Criação de components em Angular e diversificando os files do angular.</h1>
-<mw-media-item></mw-media-item>>
+<section>
+  <header>
+    <h1>Media Watch List</h1>
+    <p class="description">Keeping track of the media I want to watch.</p>
+  </header>
+  <mw-media-item 
+    [mediaItem]="firstMediaItem"
+    (delete)="onMediaItemDelete($event)"></mw-media-item>
+</section>
