@@ -51,7 +51,5 @@ export class MediaItemListComponent {
     }
   ];
 
-  onMediaItemDelete(mediaItem) {
-      console.log("deletado");
-   }
+  onMediaItemDelete(mediaItem) { }
 }
